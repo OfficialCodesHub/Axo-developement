@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ====================================================
-#   🚀 AXO DEVELOPMENT  - Blueprint+Addon+Theme Installer
+#   🚀 root@Iconic  - Blueprint+Addon+Theme Installer
 # ====================================================
 
 set -u
@@ -23,7 +23,7 @@ header() {
     echo -e "${B} | |  | |  __/ | | | |_| |      ${N}"
     echo -e "${B} |_|  |_|\___|_| |_|\__,_|      ${N}"
     echo -e "${B}=====================================================${N}"
-    echo -e "${Y}      🚀 AXO DEVELOPMENT     ${N}"
+    echo -e "${Y}      🚀 Made By root@iconic     ${N}"
     echo -e "${B}=====================================================${N}"
     echo ""
 }
