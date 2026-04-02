@@ -1,12 +1,12 @@
 #!/bin/bash
 
 # ===========================================
-# Secure SSH Setup + Custom MOTD - AXODEVELOPEMT
+# Secure SSH Setup + Custom MOTD - ROOT@ICONIC
 # ===========================================
 
 clear
 
-echo -e "\033[1;36m🔐 AxoDevelopment - Secure SSH Configuration\033[0m"
+echo -e "\033[1;36m🔐 ROOT@ICONIC - Secure SSH Configuration\033[0m"
 echo -e "\033[1;37m--------------------------------------\033[0m"
 
 sleep 1
