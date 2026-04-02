@@ -27,7 +27,7 @@ typewriter() {
 
 # ---- FIXED PROGRESS BAR ----
 progress_bar() {
-    echo -e "${C}Initializing AXODEVELOPMENT...${N}"
+    echo -e "${C}Initializing The Code...${N}"
     
     # Nice loading bar with #
     printf "${G}"
@@ -50,15 +50,15 @@ progress_bar() {
 intro() {
     clear
     echo -e "${P}"
-    typewriter "█████╗ ██╗  ██╗ ██████╗ ██████╗ ███████╗██╗   ██╗███████╗██╗      ██████╗ ██████╗ ███╗   ███╗███████╗███╗   ██╗████████╗"
-    typewriter "██╔══██╗╚██╗██╔╝██╔═══██╗██╔══██╗██╔════╝██║   ██║██╔════╝██║     ██╔═══██╗██╔══██╗████╗ ████║██╔════╝████╗  ██║╚══██╔══╝"
-    typewriter "███████║ ╚███╔╝ ██║   ██║██║  ██║█████╗  ██║   ██║█████╗  ██║     ██║   ██║██████╔╝██╔████╔██║█████╗  ██╔██╗ ██║   ██║"
-    typewriter "██╔══██║ ██╔██╗ ██║   ██║██║  ██║██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║     ██║   ██║██╔═══╝ ██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ██║"
-    typewriter "██║  ██║██╔╝ ██╗╚██████╔╝██████╔╝███████╗ ╚████╔╝ ███████╗███████╗╚██████╔╝██║     ██║ ╚═╝ ██║███████╗██║ ╚████║   ██║"
-    typewriter "╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚══════╝  ╚═══╝  ╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝"
+    typewriter "██╗ ██████╗ ██████╗ ███╗   ██╗██╗ ██████╗"
+    typewriter "██║██╔════╝██╔═══██╗████╗  ██║██║██╔════╝"
+    typewriter "██║██║     ██║   ██║██╔██╗ ██║██║██║     "
+    typewriter "██║██║     ██║   ██║██║╚██╗██║██║██║     "
+    typewriter "██║╚██████╗╚██████╔╝██║ ╚████║██║╚██████╗"
+    typewriter "╚═╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚═╝ ╚═════╝"
     echo -e "${N}"
     echo ""
-    typewriter "🚀 AXODEVELOPMENT MainMenu"
+    typewriter "🚀 Root@Iconic MainMenu"
     sleep 1
     progress_bar
     clear
@@ -66,7 +66,7 @@ intro() {
 
 # ---- HEADER ----
 header() {
-    echo -e "${P}${BLINK}🚀 AXODEVELOPMENT MainMenu 🚀${N}"
+    echo -e "${P}${BLINK}🚀 Root@Iconic MainMenu 🚀${N}"
     echo -e "${Y}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${N}"
     echo ""
 }
@@ -211,7 +211,7 @@ while true; do
             pause
             ;;
         10)
-            echo -e "${G}AXODEVELOPMENT ROCKS 😎🔥${N}"
+            echo -e "${G}Iconic ROCKS 😎🔥${N}"
             sleep 1
             exit 0
             ;;
